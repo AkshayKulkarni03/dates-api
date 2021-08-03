@@ -14,4 +14,4 @@ spec:
             - path: /
               backend:
                 serviceName: "myakscluster-6725"
-                servicePort: 80
+                servicePort: service

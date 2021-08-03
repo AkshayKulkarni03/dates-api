@@ -16,4 +16,9 @@ spec:
         - name: "myakscluster-6725"
           image: "myaksregsitry.azurecr.io/myakscluster"
           ports:
-          - containerPort: 80
+          - containerPort: 8080
+            name: service
+            protocol: TCP
+          - containerPort: 8081
+            name: management
+            protocol: TCP
